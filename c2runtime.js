@@ -17821,5 +17821,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.exps.AnimationFrame,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
-	cr.plugins_.vkontakte.prototype.acts.PublishToWall
+	cr.plugins_.vkontakte.prototype.acts.PublishToWall,
+	cr.plugins_.Sprite.prototype.exps.AnimationName
 ];};
