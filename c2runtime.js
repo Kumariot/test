@@ -17807,7 +17807,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.MoveForward,
-	cr.system_object.prototype.cnds.Every,
+	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
@@ -17816,7 +17816,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Button.prototype.acts.SetEnabled,
-	cr.plugins_.Sprite.prototype.cnds.OnCollision,
+	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.Sprite.prototype.exps.AnimationFrame,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.vkontakte.prototype.acts.PublishToWall
